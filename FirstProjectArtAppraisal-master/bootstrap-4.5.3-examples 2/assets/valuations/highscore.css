@@ -1,0 +1,13 @@
+#scoreDiv{
+  /* position: absolute; */
+  display: inline-block;
+  position: relative;
+  margin: 1%;
+  width: 20%;
+}
+
+
+#scoreDiv img{
+    height: auto;
+    width: 100%; 
+}
