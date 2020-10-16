@@ -180,7 +180,8 @@ a:hover {
 
 .cover-heading{
     
-    font-size: 70px;
+    font-size: 40px;
+    display: -ms-flexbox;
     -webkit-animation: slide-in-top 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
   animation: slide-in-top 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
   position: relative;
@@ -299,29 +300,17 @@ body {
   max-width: 42em;
 } */
 
-/* #highscores{
+#highscores{
     color: white;
     font-family: 'Monument Extended', sans-serif;
     font-size: 10px;
-    position: absolute;
-    top: 10px;
-    left: 0; */
-/* } */
-/* #countdown{
-  color: white;
+    display: -ms-flexbox;
+}
+#countdown{
   font-family: 'Monument Extended', sans-serif;
-  position: absolute;
-  top: 390px;
-  height : 0px;
-  width : 200px;
-  bottom : 0px;
-  text-align: center;
-  color: white;
   font-family: 'Monument Extended', sans-serif;
   font-size: 24px;
-  -webkit-text-fill-color: black; /* Will override color (regardless of order) */
-/* -webkit-text-stroke-width: 1px;
--webkit-text-stroke-color: white; */ 
+  display: -ms-flexbox;
 
 /*
  * Cover
