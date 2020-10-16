@@ -24,7 +24,7 @@ a:hover {
  * Base structure
  */
  .h1, h1 {
-    font-size: 2.5rem;
+    font-size: 72px;
 }
 
 .h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
@@ -56,10 +56,10 @@ body {
   max-height: 500px;
   max-width: 500px;
 }
-/* .cover-heading{
+.cover-heading{
     font-FAMILY: 'GrandSlang', serif;
-    font-size: 7.5rem;
-   } */
+    font-size: 72px;
+   }
    .lead{
     font-family: 'Monument Extended', sans-serif;
     font-size: 1.25rem;
