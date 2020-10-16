@@ -1,0 +1,328 @@
+body, html {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background: black;
+    align: center;
+
+  }
+    
+  .wrapper {
+    width: 430px;
+    margin: 0 auto;
+    height: 100%;
+    padding-top: 0px;
+  }
+
+  .container {
+    position: relative;
+    width: 50%;
+    display: flex;
+    font-size: 5px;
+  }
+  
+  .hockney {
+    display: block;
+    width: 100%;
+    height: auto;
+    font-size: 5px;
+    align: center;
+  }
+
+
+ 
+    
+  
+  .container:hover .overlay {
+    opacity: 80%;
+    font-size: 5px;
+  }
+  
+  .text {
+    color: white;
+    font-size:7px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+
+  }
+  #hockney {
+      height: 180px;
+      width: 160px;
+      height: 70%;
+      align: center;
+  }
+
+ h3 {
+     color: #ffffff
+ }
+  .container {
+    max-width: 2000px;
+    font-size: 0;
+}
+.image {
+    display: inline-block;
+    position: relative;
+    margin: 1%;
+    width: 100%;
+}
+ .image img { 
+    height: auto;
+    width: 100%; 
+}
+.overlay {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    opacity: 0;
+    transition: all 0.5s ease;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    transition: .5s ease;
+    background-color: #000000;
+    font-size: 5px;
+}
+.overlay:hover {
+    opacity: 1;
+}
+.overlay img{
+    height: auto;
+    width: 100%;
+}
+      
+  
+  
+  
+  #quiz {
+    background-color: #000000;
+    padding-bottom: 60px;
+    width: 100%;
+    border-radius: 2%;
+    color: #fff;
+    text-align: center;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+    font-family: 'Chivo', sans-serif;
+  
+  }
+  #artvaluations {
+  -webkit-animation: scale-in-ver-bottom 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+  animation: scale-in-ver-bottom 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+  -webkit-animation: text-shadow-pop-br 0.6s both;
+	        animation: text-shadow-pop-br 0.6s both;
+}
+
+  
+  #quiz > h1 {
+    text-align: center;
+    padding-top: 25px;
+    font-size: 20px;
+    -webkit-animation: scale-in-ver-bottom 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+    animation: scale-in-ver-bottom 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+    font-family: 'Grand Slang B-SLIDE'
+  }
+  
+  .questions {
+    font-size: 12px;
+    font-weight: 700;
+    font-style: regular;
+    border-top: 1px solid grey;
+    border-bottom: 1px solid grey;
+    padding: 20px;
+    -webkit-animation: scale-in-ver-bottom 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+    animation: scale-in-ver-bottom 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+    font-family: 'Monument Extended Light', sans-serif;
+}
+  h3 {
+    font-family: 'Chivo', sans-serif;
+  }
+  
+  .answers div {
+    padding: 10px 0 0 0;
+    font-size: 16px;
+    font-family: 'Chivo', sans-serif;
+  }
+  
+  .answers div:hover {
+    cursor: pointer;
+    color: #d7f20c;
+    font-style: italic;
+  }
+  
+  .answers {
+    padding: 0px 0 10px 0px;
+  }
+  
+  .answers div {
+    width: 50%;
+    margin: 0 auto;
+    padding-bottom: 15px;
+    border-top: 1px solid grey;
+  }
+  
+  .answers div:first-child {
+    border: none;
+  }
+  
+  .checker {
+    display: inline-block;
+    width: 200px;
+    margin: 0 auto;
+  }
+  
+  .correct, .false {
+    background-color: #d7f20c;
+    width: 60px;
+    height: 30px;
+    line-height: 30px;
+    padding-left: 4px;
+    float: left;
+    margin-left: 2px;
+    margin-top: 2px;
+  }
+  
+  .false {
+    background-color: #DC4437;
+  } 
+
+  #noise {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+    pointer-events: none;
+    z-index: 90;
+}
+
+#noise:before {
+    content: '';
+    position: absolute;
+    top: -100%;
+    left: -100%;
+    height: 300%;
+    width: 300%;
+    background: url(http://fariskassim.com/stage/codepenstuff/noise.png);
+    pointer-events: none;
+    display: block;
+    opacity: 1;
+    -webkit-animation: grain 2s steps(10) infinite;
+    animation: grain 2s steps(10) infinite;
+    will-change: transform;
+}
+
+.comparables {
+    max-width: 940px;
+    font-size: 0;
+
+
+}
+#base-cursor {
+    opacity: 0;
+}
+.cursor[data-v-3c32c90b] {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9999999;
+    width: 0;
+    height: 0;
+    pointer-events: none;
+    mix-blend-mode: difference;
+    -webkit-transition: opacity .6s;
+    transition: opacity .6s;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+
+
+@-webkit-keyframes grain{0%,to{-webkit-transform:translate(0);transform:translate(0)}10%{-webkit-transform:translate(-5%,-10%);transform:translate(-5%,-10%)}20%{-webkit-transform:translate(-15%,5%);transform:translate(-15%,5%)}30%{-webkit-transform:translate(7%,-25%);transform:translate(7%,-25%)}40%{-webkit-transform:translate(21%,25%);transform:translate(21%,25%)}50%{-webkit-transform:translate(-25%,10%);transform:translate(-25%,10%)}60%{-webkit-transform:translate(15%,5%);transform:translate(15%,5%)}70%{-webkit-transform:translateY(15%);transform:translateY(15%)}80%{-webkit-transform:translate(25%,35%);transform:translate(25%,35%)}90%{-webkit-transform:translate(-10%,10%);transform:translate(-10%,10%)}}@keyframes grain{0%,to{-webkit-transform:translate(0);transform:translate(0)}10%{-webkit-transform:translate(-5%,-10%);transform:translate(-5%,-10%)}20%{-webkit-transform:translate(-15%,5%);transform:translate(-15%,5%)}30%{-webkit-transform:translate(7%,-25%);transform:translate(7%,-25%)}40%{-webkit-transform:translate(21%,25%);transform:translate(21%,25%)}50%{-webkit-transform:translate(-25%,10%);transform:translate(-25%,10%)}60%{-webkit-transform:translate(15%,5%);transform:translate(15%,5%)}70%{-webkit-transform:translateY(15%);transform:translateY(15%)}80%{-webkit-transform:translate(25%,35%);transform:translate(25%,35%)}90%{-webkit-transform:translate(-10%,10%);transform:translate(-10%,10%)}}
+@-webkit-keyframes grain2{0%,to{-webkit-transform:translate(0);transform:translate(0)}10%{-webkit-transform:translate(-1%,-2%);transform:translate(-1%,-2%)}20%{-webkit-transform:translate(-2%,1%);transform:translate(-2%,1%)}30%{-webkit-transform:translate(3%,-5%);transform:translate(3%,-5%)}40%{-webkit-transform:translate(5%,5%);transform:translate(5%,5%)}50%{-webkit-transform:translate(-5%,2%);transform:translate(-5%,2%)}60%{-webkit-transform:translate(3%,1%);transform:translate(3%,1%)}70%{-webkit-transform:translateY(3%);transform:translateY(3%)}80%{-webkit-transform:translate(5%,7%);transform:translate(5%,7%)}90%{-webkit-transform:translate(-2%,2%);transform:translate(-2%,2%)}}@keyframes grain2{0%,to{-webkit-transform:translate(0);transform:translate(0)}10%{-webkit-transform:translate(-1%,-2%);transform:translate(-1%,-2%)}20%{-webkit-transform:translate(-3%,1%);transform:translate(-3%,1%)}30%{-webkit-transform:translate(3%,-5%);transform:translate(3%,-5%)}40%{-webkit-transform:translate(5%,5%);transform:translate(5%,5%)}50%{-webkit-transform:translate(-5%,2%);transform:translate(-5%,2%)}60%{-webkit-transform:translate(3%,1%);transform:translate(3%,1%)}70%{-webkit-transform:translateY(5%);transform:translateY(5%)}80%{-webkit-transform:translate(5%,7%);transform:translate(5%,7%)}90%{-webkit-transform:translate(-2%,2%);transform:translate(-2%,2%)}}
+@-webkit-keyframes scale-in-ver-bottom {
+    0% {
+      -webkit-transform: scaleY(0);
+              transform: scaleY(0);
+      -webkit-transform-origin: 0% 100%;
+              transform-origin: 0% 100%;
+      opacity: 1;
+    }
+    100% {
+      -webkit-transform: scaleY(1);
+              transform: scaleY(1);
+      -webkit-transform-origin: 0% 100%;
+              transform-origin: 0% 100%;
+      opacity: 1;
+    }
+  }
+  @keyframes scale-in-ver-bottom {
+    0% {
+      -webkit-transform: scaleY(0);
+              transform: scaleY(0);
+      -webkit-transform-origin: 0% 100%;
+              transform-origin: 0% 100%;
+      opacity: 1;
+    }
+    100% {
+      -webkit-transform: scaleY(1);
+              transform: scaleY(1);
+      -webkit-transform-origin: 0% 100%;
+              transform-origin: 0% 100%;
+      opacity: 1;
+    }
+  }
+  
+
+  ////////////animation on artvaluation
+  @-webkit-keyframes text-shadow-pop-br {
+    0% {
+      text-shadow: 0 0 #555555, 0 0 #555555, 0 0 #555555, 0 0 #555555, 0 0 #555555, 0 0 #555555, 0 0 #555555, 0 0 #555555;
+      -webkit-transform: translateX(0) translateY(0);
+              transform: translateX(0) translateY(0);
+    }
+    100% {
+      text-shadow: 1px 1px #555555, 2px 2px #555555, 3px 3px #555555, 4px 4px #555555, 5px 5px #555555, 6px 6px #555555, 7px 7px #555555, 8px 8px #555555;
+      -webkit-transform: translateX(-8px) translateY(-8px);
+              transform: translateX(-8px) translateY(-8px);
+    }
+  }
+  @keyframes text-shadow-pop-br {
+    0% {
+      text-shadow: 0 0 #555555, 0 0 #555555, 0 0 #555555, 0 0 #555555, 0 0 #555555, 0 0 #555555, 0 0 #555555, 0 0 #555555;
+      -webkit-transform: translateX(0) translateY(0);
+              transform: translateX(0) translateY(0);
+    }
+    100% {
+      text-shadow: 1px 1px #555555, 2px 2px #555555, 3px 3px #555555, 4px 4px #555555, 5px 5px #555555, 6px 6px #555555, 7px 7px #555555, 8px 8px #555555;
+      -webkit-transform: translateX(-8px) translateY(-8px);
+              transform: translateX(-8px) translateY(-8px);
+    }
+}
+
+    @font-face {
+        font-family: 'monument_extendedregular';
+        src: url('monumentextended-regular-webfont.woff2') format('woff2'),
+             url('monumentextended-regular-webfont.woff') format('woff');
+        font-weight: normal;
+        font-style: normal;
+
+    
+    }
+
+
+@font-face {
+    font-family: 'grandslangb-side';
+    src: url('grandslang-b-side-webfont.woff2') format('woff2'),
+         url('grandslang-b-side-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+    
