@@ -1,112 +1,89 @@
-<!DOCTYPE html>
-<html>
-<head>
-  <meta charset="utf-8">
-  <link rel="stylesheet" href="style.css">
-  <script defer src="app.js"></script>
-  <script src="https://code.jquery.com/jquery-3.3.1.min.js" charset="utf-8"></script>
-  <meta name="viewport" content="width=device-width">
-  <link href="https://fonts.googleapis.com/css2?family=Chivo:wght@300&display=swap" rel="stylesheet">  <title>Art Appraisal</title>
-</head>
-<body>
-   
-    <div id="noise">
-    </div>
-  <div class="wrapper">
-    <div id="quiz">
-       
-      <center><h1><img src="https://i.imgur.com/9STewsC.png" id="artvaluations"> </h1></center>
-    <center><div class= "container">
-        <img src="[Imgur](https://i.imgur.com/THDFAX0.jpg?1)" id="hockney" height="180" width="160" style display= "none" class="hockney">
-  
-        <div class="overlay">
-          <center><div class="text">Roman Notes V
-              <br>
-              Cy Twombly 1970 Lithograph Print
-              <br>
-              Height 34.2 in.; Width 27.5 in. 
-              <br>
-               Edition of 100</div></center>
-        </div>
-   
-   
-   
-   
-   
-   
-    </center>
-      <p class="questions">
-        
-      </p>
-      
-      <div class="answers">
-        
-      </div>         
-<center>
-    <div class="container">
-        <div class="image">
-            <a href=""> <img src="
-                https://i.imgur.com/d7Ry6w6.jpg
-                
-                " id="jadeplant" height="180" width="160" style display= "none" class="jade"></a>
-            <div class="overlay">Sale of Bonhams Los Angeles: Tuesday, October 15, 2019 [Lot 00197]
-                Prints & Multiples
-                <br>
-              Cy Twombly, Roman Notes I, from Roman Notes, 1970,
-              <br>
-              Color offset lithograph, Height 34.2 in.; Width 27.5 in.  
-              <br>
-            Realized Sale: 52,575 USD Premium
- 
-          <br>
-      <br></div>
-        </div>
-    
-        <div class="image">
-            <a href=""><img src="https://i.imgur.com/55vmiQm.jpg?1" id="30sunflowers" height="180" width="160" style display= "none" class="sunflower"></a>
-            <div class="overlay">Sale of Christie's New York: Wednesday, October 23, 2019 [Lot 00132]
-                Prints & Multiples
-                <BR>
-                Cy Twombly,  Roman Notes III, from Roman Notes
-              <br>
-              olor offset lithograph, Height 34.2 in.; Width 27.5 in. 
-              <br>
-               Edition of 100
-                <br>
-               Realized Sale: 62,500 USD Premium 
-          <br>
-      <br></div>
-        </div>
-        <div class="image">
-            <a href=""><img src="https://i.imgur.com/lpQT2Dk.jpg"/></a>
-            <div class="overlay">Sale of Bonhams Los Angeles: Tuesday, October 15, 2019 [Lot 00197]
-                Prints & Multiples
-                <br>
-              Cy Twombly, Roman Notes V from Roman Notes, 1970,
-              <br>
-              Color offset lithograph, Height 34.2 in.; Width 27.5 in. 
-              <br>
-            Realized Sale: 43,750 USD Premium 
-          <br>
-      <br></div>
-        </div>
-    </div>
-    </div>
-</center>
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Chivo:wght@300&display=swap" rel="stylesheet"> 
+    <meta name="generator" content="Jekyll v4.1.1">
+    <title>Cover Template · Bootstrap</title>
 
- 
-<center>
-      <div class="checkAnswers">
-        <h3>Correct?</h3>
-        <div class="checker">
-</center>
-<br>
-<br>
-<br>
-        </div>
-      </div>
+    <link rel="canonical" href="https://getbootstrap.com/docs/4.5/examples/cover/">
+
+   
+<link href="../assets/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+    </style>
+  
+    <link href="cover.css" rel="stylesheet">
+  </head>
+  <body class="text-center">
+    <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
+  <header class="masthead mb-auto">
+    <div class="inner" >
+      <h3 class="masthead-brand" class="nav-item nav-link" ></h3>
+      <nav class="nav nav-masthead justify-content-center">
+        <a class="nav-link active" id="highscores" href="./highscore.html">Highscores!</a>
+        <a class="nav-link" ></a>
+        <a class="nav-link" id="countdown" href="#"></a>
+      </nav>
     </div>
+  </header>
+  <div id="question-container">
+    <div class="photo-container-two">
+    <div id="qImg"></div>
   </div>
-  <script src="app.jss" charset="utf-8"></script>
+    
+
+  </div>
+<div class="photo-container"><div id="qImg2"></div>
+<div id="qImg3"></div>
+<div id="qImg4"></div></div>
+  <main role="main" class="inner cover">
+    <div id="opener">
+    <h1 class="cover-heading">ART VALUATIONS</h1>
+    <p class="lead">test your art history knowledge</p>
+    <p class="lead">
+      <a href="#" id="start-btn" class="btn btn-lg btn-secondary" role="button">START</a>
+    </p>
+  </div>
+  </main>
+
+  <footer class="mastfoot mt-auto">
+    <div class="inner">
+      <p> <a href="https://getbootstrap.com/"></a><a href="https://twitter.com/mdo"></a></p>
+    </div>
+  </footer>
+</div>
+
+<div id="description"></div>
+
+<div id="noise">
+</div>
+
 </body>
+<script
+src="https://code.jquery.com/jquery-3.4.1.min.js"
+integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+crossorigin="anonymous"
+></script>
+<script src="script.js"></script>
+<script src="highscores.js"></script>
 </html>
