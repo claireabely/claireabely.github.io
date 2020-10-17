@@ -47,7 +47,7 @@ var questions = [
     question: "What is the correct retail replacement value of Sunset Nude with Red Stockings by Tom Wesselmann?",
     answers: ["1M USD", "10M USD", "10,000 USD"],
     imgSrc : "https://www.christies.com/img/LotImages/2010/NYR/2010_NYR_02356_0181_000(tom_wesselmann_sunset_nude_with_red_stockings073259).jpg",
-    img2Src : "https://www.christies.com/img/LotImages/2014/NYR/2014_NYR_02892_0321_000(tom_wesselmann_sunset_nude_7115925).jpg",
+    img2Src : "https://i.imgur.com/iYSTvtp.png?1",
     img3Src: "https://www.christies.com/img/LotImages/2006/NYR/2006_NYR_01726_0162_000().jpg",
     img4Src: "https://i.imgur.com/9EmhfHw.png",
     description: "• Sunset Nude #7: 811023 USD, 2007•Sunset Nude with Big Red Pillow: 1,248,000 USD, 2006• Blue Nude One Flower: 712,000 USD, 2002 •",
