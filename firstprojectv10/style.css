@@ -1,0 +1,324 @@
+body, html {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background: black;
+    align: center;
+
+  }
+
+
+#container{
+    margin : 20px auto;
+    background-color: #000000;
+    height: 300px;
+    width : 700px;
+    border-radius: 5px;
+    box-shadow: 0px 5px 15px 0px;
+    position: relative;
+    font-FAMILY: 'GrandSlang', serif;
+    
+    
+}
+    #container:hover {
+  
+    }
+
+#start{
+    font-size: 1em;
+    word-break: break-all;
+    width:500px;
+    height:200px;
+    border : 2px solid black;
+    text-align: center;
+    cursor: pointer;
+    position: absolute;
+    left:100px;
+    top:50px;
+    color : WHITE;
+    font-FAMILY: 'GrandSlang', serif;
+    FONT-SIZE: 120px;
+
+}
+#start:hover{
+    padding: 10px;
+    border: 3px solid #black;
+   
+   
+}
+.start{
+    width: 400px;
+    height:200px;
+}
+
+#qImg{
+    width : 200px;
+    height : 200px;
+    position: absolute;
+    left : 0px;
+    top : 0px;
+}
+#qImg img{
+    width : 200px;
+    height : 270px;
+    border-top-left-radius: 5px;
+    padding: 5px
+}
+
+#qImg2{
+    width : 200px;
+    height : 200px;
+    left : 400px;
+    top : 400px;
+}
+#qImg2 img{
+    width : 200px;
+    height : 270px;
+    border-top-left-radius: 5px;
+    padding: 5px
+}
+#question{
+    width:500px;
+    height : 125px;
+    position: absolute;
+    right:0;
+    top:0;
+    font-family: 'Monument Extended', sans-serif;
+    color: white;
+}
+#question p{
+    margin : 0;
+    padding : 15px;
+    font-size: 1em;
+    font-family: 'Monument Extended', sans-serif;
+    color: white;
+}
+
+#choices{
+    width : 480px;
+    position: absolute;
+    right : 0;
+    top : 125px;
+    padding : 10px;
+    font-family: 'Chivo', sans-serif;
+    color: white;
+}
+.choice{
+    display: inline-block;
+    width : 135px;
+    text-align: center;
+    border : 1px solid transparent;
+    border-radius: 5px;
+    cursor: pointer;
+    padding : 5px;
+    font-family: 'Chivo', sans-serif;
+    font-size: 11px;
+    color: white;
+    
+}
+.choice:hover{
+    border : 2px solid transparent;
+    font-weight: bold;
+    color: #d7f20c;
+    font-style: italic;
+    
+}
+
+#timer{
+    position: absolute;
+    top: 270px;
+    height : 70px;
+    width : 200px;
+    bottom : 0px;
+    text-align: center;
+    color: white;
+    font-family: 'Monument Extended', sans-serif;
+    font-size: 20px;
+    -webkit-text-fill-color: black; /* Will override color (regardless of order) */
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: white;
+}
+
+#counter{
+    font-size: 3em;
+    color: white;
+    font-family: 'Monument Extended Light', sans-serif;
+}
+#btimeGauge{
+    width : 150px;
+    height : 10px;
+    border-radius: 10px;
+    background-color: black;
+    margin-left : 25px;
+    color: white;
+    font-family: 'Monument Extended Light', sans-serif;
+}
+#timeGauge{
+    height : 10px;
+    border-radius: 10px;
+    background-color: d7f20c;
+    margin-top : -10px;
+    margin-left : 25px;
+    color: white;
+    font-family: 'Monument Extended Regular', sans-serif;
+}
+#progress{
+    width : 500px;
+    position: absolute;
+    bottom : 0px;
+    right : 0px;
+    padding:5px;
+    text-align: right;
+    color: white;
+}
+.prog{
+    width : 25px;
+    height : 25px;
+    border: 1px solid #000;
+    display: inline-block;
+    border-radius: 50%;
+    margin-left : 5px;
+    margin-right : 5px;
+    color: white;
+
+}
+    #photoContainer img{
+        position: absolute;
+        width : 200px;
+        height : 270px;
+        top:400px;
+        left:325px;
+        color:white;
+        font-style: 'Monument Extended Regular', sans-serif;
+    
+        
+    }
+    #photoContainer p{
+        position: absolute;
+        display: block;
+        width : 59px;
+        height :59px;
+        top:130px;
+        left:325px;
+        font-size: 1.5em;
+        font-weight: bold;
+        text-align: center;
+        color: white;
+        font-style: 'Monument Extended Regular', sans-serif;
+    }
+#scoreContainer{
+    margin : 20px auto;
+    background-image:
+    linear-gradient(
+        #ffffff, #a4a4a6, #595959, #262626, #0d0d0d, #000000
+    );
+    opacity: 1;
+    height: 300px;
+    width : 700px;
+    border-radius: 5px;
+    box-shadow: 0px 5px 15px 0px;
+    position: relative;
+    display: none;
+    color:white;
+    font-style: 'Monument Extended Regular', sans-serif;
+}
+#scoreContainer img{
+    position: absolute;
+    width : 200px;
+    height : 270px;
+    top:100px;
+    left:325px;
+    color:white;
+    font-style: 'Monument Extended Regular', sans-serif;
+
+    
+}
+#scoreContainer p{
+    position: absolute;
+    display: block;
+    width : 59px;
+    height :59px;
+    top:130px;
+    left:325px;
+    font-size: 1.5em;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    font-style: 'Monument Extended Regular', sans-serif;
+}
+
+
+
+
+
+p {
+  color:white;
+}
+
+#noise {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+    pointer-events: none;
+    z-index: 90;
+}
+
+#noise:before {
+    content: '';
+    position: absolute;
+    top: -100%;
+    left: -100%;
+    height: 300%;
+    width: 300%;
+    background: url(http://fariskassim.com/stage/codepenstuff/noise.png);
+    pointer-events: none;
+    display: block;
+    opacity: 1;
+    -webkit-animation: grain 2s steps(10) infinite;
+    animation: grain 2s steps(10) infinite;
+    will-change: transform;
+}
+
+
+@-webkit-keyframes grain{0%,to{-webkit-transform:translate(0);transform:translate(0)}10%{-webkit-transform:translate(-5%,-10%);transform:translate(-5%,-10%)}20%{-webkit-transform:translate(-15%,5%);transform:translate(-15%,5%)}30%{-webkit-transform:translate(7%,-25%);transform:translate(7%,-25%)}40%{-webkit-transform:translate(21%,25%);transform:translate(21%,25%)}50%{-webkit-transform:translate(-25%,10%);transform:translate(-25%,10%)}60%{-webkit-transform:translate(15%,5%);transform:translate(15%,5%)}70%{-webkit-transform:translateY(15%);transform:translateY(15%)}80%{-webkit-transform:translate(25%,35%);transform:translate(25%,35%)}90%{-webkit-transform:translate(-10%,10%);transform:translate(-10%,10%)}}@keyframes grain{0%,to{-webkit-transform:translate(0);transform:translate(0)}10%{-webkit-transform:translate(-5%,-10%);transform:translate(-5%,-10%)}20%{-webkit-transform:translate(-15%,5%);transform:translate(-15%,5%)}30%{-webkit-transform:translate(7%,-25%);transform:translate(7%,-25%)}40%{-webkit-transform:translate(21%,25%);transform:translate(21%,25%)}50%{-webkit-transform:translate(-25%,10%);transform:translate(-25%,10%)}60%{-webkit-transform:translate(15%,5%);transform:translate(15%,5%)}70%{-webkit-transform:translateY(15%);transform:translateY(15%)}80%{-webkit-transform:translate(25%,35%);transform:translate(25%,35%)}90%{-webkit-transform:translate(-10%,10%);transform:translate(-10%,10%)}}
+@-webkit-keyframes grain2{0%,to{-webkit-transform:translate(0);transform:translate(0)}10%{-webkit-transform:translate(-1%,-2%);transform:translate(-1%,-2%)}20%{-webkit-transform:translate(-2%,1%);transform:translate(-2%,1%)}30%{-webkit-transform:translate(3%,-5%);transform:translate(3%,-5%)}40%{-webkit-transform:translate(5%,5%);transform:translate(5%,5%)}50%{-webkit-transform:translate(-5%,2%);transform:translate(-5%,2%)}60%{-webkit-transform:translate(3%,1%);transform:translate(3%,1%)}70%{-webkit-transform:translateY(3%);transform:translateY(3%)}80%{-webkit-transform:translate(5%,7%);transform:translate(5%,7%)}90%{-webkit-transform:translate(-2%,2%);transform:translate(-2%,2%)}}@keyframes grain2{0%,to{-webkit-transform:translate(0);transform:translate(0)}10%{-webkit-transform:translate(-1%,-2%);transform:translate(-1%,-2%)}20%{-webkit-transform:translate(-3%,1%);transform:translate(-3%,1%)}30%{-webkit-transform:translate(3%,-5%);transform:translate(3%,-5%)}40%{-webkit-transform:translate(5%,5%);transform:translate(5%,5%)}50%{-webkit-transform:translate(-5%,2%);transform:translate(-5%,2%)}60%{-webkit-transform:translate(3%,1%);transform:translate(3%,1%)}70%{-webkit-transform:translateY(5%);transform:translateY(5%)}80%{-webkit-transform:translate(5%,7%);transform:translate(5%,7%)}90%{-webkit-transform:translate(-2%,2%);transform:translate(-2%,2%)}}
+
+
+
+
+
+
+
+
+@font-face {
+    font-family: 'monument_extendedregular';
+    src: url('monumentextended-regular-webfont.woff2') format('woff2'),
+         url('monumentextended-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+
+}
+
+
+@font-face {
+font-family: 'grandslangb-side';
+src: url('grandslang-b-side-webfont.woff2') format('woff2'),
+     url('grandslang-b-side-webfont.woff') format('woff');
+font-weight: normal;
+font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'monument_extendedregular';
+    src: url('monumentextended-regular-webfont.woff2') format('woff2'),
+         url('monumentextended-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
