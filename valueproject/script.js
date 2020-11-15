@@ -15,12 +15,12 @@ var description= $("#description")
 var questions = [
   {
     question: "What is the correct fair market value of The Entombment by Paul Cézanne?",
-    answers: ["70,000 USD", "20,000 USD", "120,000 USD"],
+    answers: ["70,000 USD", "20,000 USD", "120,000"],
     imgSrc: "https://i.imgur.com/THDFAX0.jpg?1",
     img2Src: "https://i.imgur.com/ezwJw7F.png",
     img3Src: "https://i.imgur.com/bH1XSGP.png",
     img4Src: "https://i.imgur.com/sZpnSJP.png",
-    description: " •Vénus et Amours: 46,183, USD 2010 • L'Estaque et le golfe de Marseille: 81,250 USD, 2016 •  Études d'une Baigneuse S'essuyant 61,862 USD 2013•",
+    description: "Entombment",
     correctAnswer: 0
   },
   {
@@ -30,7 +30,6 @@ var questions = [
     img2Src: "https://bonfoeygallery.files.wordpress.com/2018/06/spectral-blue_-1975-2013_60x5072.jpg?w=343&h=417",
     img3Src: "https://p1.liveauctioneers.com/1331/62316/31108976_1_x.jpg?auto=webp&format=pjpg&version=1413219182&width=440",
     img4Src: "https://wolfsgallery.com/images/works/_huge/stanczak-conferring-blue-2.jpg",
-    description: "•Conservative Green: Minus • 32,500 USD 2020 • Filtration Orange: 16,250 USD, 2012 • Conferring Blue: 30,000 USD, 2018•",
     correctAnswer: 1
   },
   {
@@ -40,42 +39,50 @@ var questions = [
     img2Src: "https://i.imgur.com/hB12H24.jpg",
     img3Src: "https://i.imgur.com/SKHNVAg.jpg",
     img4Src: "https://i.imgur.com/pMyFPzC.jpg",
-    description: "Girl holding her foot: 22,126 USD, 2018 • Girl Holding Her Foot: 18,463 USD, 2018 • Girl Holding Her Foot: 20,848 USD, 2019 ",
     correctAnswer: 0
   },
   {
-    question: "What is the correct retail replacement value of Sunset Nude with Red Stockings by Tom Wesselmann?",
-    answers: ["1M USD", "10M USD", "10,000 USD"],
-    imgSrc : "https://www.christies.com/img/LotImages/2010/NYR/2010_NYR_02356_0181_000(tom_wesselmann_sunset_nude_with_red_stockings073259).jpg",
-    img2Src : "https://i.imgur.com/iYSTvtp.png?1",
-    img3Src: "https://www.christies.com/img/LotImages/2006/NYR/2006_NYR_01726_0162_000().jpg",
-    img4Src: "https://i.imgur.com/9EmhfHw.png",
-    description: "• Sunset Nude #7: 811023 USD, 2007•Sunset Nude with Big Red Pillow: 1,248,000 USD, 2006• Blue Nude One Flower: 712,000 USD, 2002 •",
-    correctAnswer: 0
-   },
-   { 
-   
+      question: "What is the correct fair market value for Portrait of Lum A'Kao by Henri-Pierre Danloux? ",
+      answers: ["$4M USD", "1,000 USD", "80,000 USD"],
+      imgSrc : "https://i.imgur.com/5hwnm6F.png",
+      img2Src: "https://sothebys-md.brightspotcdn.com/26/98/351693ca4f76b7761961e95002af/092n10308-b7zp9.png",
+      img3Src: "https://sothebys-com.brightspotcdn.com/dims4/default/e3199bf/2147483647/strip/true/crop/1639x2000+0+0/resize/345x421!/quality/90/?url=http%3A%2F%2Fsothebys-brightspot-migration.s3.amazonaws.com%2Ff4%2Ffd%2F02%2Ff096ae6d2581faeaa4a79a2a56a95d9e90f67ecd2ad574d54569efe76f%2F086l16037-6d3nn.jpg",
+      img4Src: "https://i.imgur.com/CI9WIJk.jpg?1",
+      correctAnswer: 2
+    },
+    {
+
+    question: "What is the name of this painting by Grant Wood?",
+    answers: ["American Dream", "American Gothic", "The Farmer and His Wife"],
+    imgSrc : "https://sothebys-com.brightspotcdn.com/dims4/default/acf7ae5/2147483647/strip/true/crop/9083x11100+0+0/resize/684x836!/quality/90/?url=http%3A%2F%2Fsothebys-brightspot.s3.amazonaws.com%2Fdotcom%2F4f%2F27%2F4a79a85c42748988055316a406d9%2Fgrant-wood-american-gothic.jpg",
+    correctAnswer: 1
+  },
+  {
     question: "What is the correct fair market value of Roman Notes V by Cy Twombly?",
-    answers: [ "50,000 USD", "10,000 USD", "120,000 USD"],
+    answers: [
+      "50,000 USD",
+      "10,000 USD",
+      "120,000 USD"
+    ],
     imgSrc : "https://b03.deliver.odai.yale.edu/b2/1a/b21ae9ec-cc05-4c92-a79f-5a5b6c911efe/ag-obj-89500-001-pub-med.jpg",
     img2Src: "https://i.imgur.com/d7Ry6w6.jpg",
     img3Src: "https://i.imgur.com/55vmiQm.jpg?1",
     img4Src: "https://i.imgur.com/Wbr0eIw.jpg[/img",
-    description: "•Roman Notes VI: 48,000 USD, 2020 • Roman Notes III: 62,500 USD Premium, 2019 • Roman Notes I: 52,575 USD 2019",
     correctAnswer: 0
   },
   {
-    question: "What is the correct fair market value for Portrait of Lum A'Kao by Henri-Pierre Danloux? ",
-    answers: ["4M USD", "1,000 USD", "80,000 USD"],
-    imgSrc : "https://i.imgur.com/5hwnm6F.png",
-    img2Src: "https://i.pinimg.com/originals/5a/c3/3d/5ac33d35b361022913dd00288852281a.jpg",
-    img3Src: "https://sothebys-com.brightspotcdn.com/dims4/default/e3199bf/2147483647/strip/true/crop/1639x2000+0+0/resize/345x421!/quality/90/?url=http%3A%2F%2Fsothebys-brightspot-migration.s3.amazonaws.com%2Ff4%2Ffd%2F02%2Ff096ae6d2581faeaa4a79a2a56a95d9e90f67ecd2ad574d54569efe76f%2F086l16037-6d3nn.jpg",
-    img4Src: "https://i.imgur.com/CI9WIJk.jpg?1",
-    description: "	Portrait of Jean-Louis Gustave d'Hautefort:	75,000 USD, 2015 • PORTRAIT OF A LADY: 30,020 USD, 2016 •Portrait of Augustus Frederick: 96,000 USD, 2007•",
+    question: "Who Became the official painter to Pope Julius II & Leo X?",
+    answers: ["Raphael", "Brunellescchi", "Leonardo Da Vinci"],
+    imgSrc : "https://images.fineartamerica.com/images/artworkimages/mediumlarge/1/head-of-a-young-apostle-raphael.jpg",
+    correctAnswer: 0
+  },
+  {
+    question: "Who painted these strawberries?",
+    answers: ["Pierre-Auguste Renoir,", "Marc Chagall", "Lucian Freud"],
+    imgSrc : "https://www.sothebys.com/content/dam/stb/lots/L17/L17007/L17007_9HK2Q_web.jpg",
     correctAnswer: 2
-},
-{
-
+  },
+  {
     question: "What is the Correct fair market value for Flowers Sent as a Gift by David Hockney?",
     answers: [
       "1M USD",
@@ -86,20 +93,15 @@ var questions = [
     img2Src : "https://i.imgur.com/NXZek53.png",
     img3Src : "https://i.imgur.com/aUnHIUv.jpg?1",
     img4Src : "https://i.imgur.com/1tKTgYV.jpg?1",
-    description: "•Antheriums: 5,600,000 USD , 2018 • 30 Sunflowers: 14.8M, 2020• Iris and Evian: 2,204,000, 2020•",
     correctAnswer: 2
   },
   {
-    question: "What is the correct fair market value for Winslow Homer's Snap the Whip ?", 
-    answers: ["1M USD", "3M USD", "100M USD"],
-    imgSrc : "https://collectionapi.metmuseum.org/api/collection/v1/iiif/11140/34221/main-image",
-    img2Src: "https://upload.wikimedia.org/wikipedia/commons/f/fd/Winslow_Homer_-_Children_on_the_beach_%281873%29.jpg",
-    img3Src: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Winslow_Homer_-_Sounding_Reveille_%281871%29.jpg/1200px-Winslow_Homer_-_Sounding_Reveille_%281871%29.jpg",
-    img4Src: "https://upload.wikimedia.org/wikipedia/commons/e/e8/Winslow_Homer_-_In_Charge_of_Baby.jpg",
-   correctAnswer: 1
-   
-   },
-   { 
+    question: "How many haystack paintings by Monet exist?",
+    answers: ["2", "38", "12"],
+    imgSrc : "https://sothebys-com.brightspotcdn.com/dims4/default/4238589/2147483647/strip/true/crop/2000x1564+0+0/resize/1151x900!/quality/90/?url=http%3A%2F%2Fsothebys-brightspot.s3.amazonaws.com%2Fdotcom%2F43%2Fcf%2F2e1949614262aefa6c378cb70a28%2F089n10067-3y7gy.jpg",
+    correctAnswer: 1
+  },
+  { 
       question: "What is the correct fair market value for Jeans, Albert Oehlen?",
    answers: ["1M USD", "600,000 USD", "120,000 USD"],
    imgSrc : "https://i.imgur.com/mJz15zH.jpg",
@@ -107,24 +109,26 @@ var questions = [
    img3Src: "https://i.imgur.com/UvXBJVM.jpg",
    img4Src: "https://i.imgur.com/FFKCP0o.png",
    correctAnswer: 1
+  },
+  { 
+      question: "What is the correct retail replacement value of Sunset Nude with Red Stockings by Tom Wesselmann?",
+   answers: ["1M USD", "10M USD", "10,000 USD"],
+   imgSrc : "https://www.christies.com/img/LotImages/2010/NYR/2010_NYR_02356_0181_000(tom_wesselmann_sunset_nude_with_red_stockings073259).jpg",
+   img2Src : "https://www.christies.com/img/LotImages/2014/NYR/2014_NYR_02892_0321_000(tom_wesselmann_sunset_nude_7115925).jpg",
+   img3Src: "https://www.christies.com/img/LotImages/2006/NYR/2006_NYR_01726_0162_000().jpg",
+   img4Src: "https://i.imgur.com/9EmhfHw.png",
+   correctAnswer: 0
+  },
+  { 
+    question: "Between 1874 and 1886, How many Impressionist exhibitions were held?",
+ answers: ["8", "1", "200"],
+ imgSrc : "https://www.sothebys.com/content/dam/stb/lots/PF1/PF1716/350PF1716_9KZB6_1.jpg",
+ img2Src : "",
+ img3Src: "",
+ img4Src: "",
+ correctAnswer: 0
 },
 { 
-    question: "What is the correct auction estimate value for this Picasso Madoura Pottery Owl Edition 125/500 ?",
- answers: ["10,000-20,000 USD", "10M -20M USD", "40,000-50,000"],
- imgSrc : "https://images.igavelauctions.com/x/161/Ma489020/B35-01.jpg",
- img2Src: "https://images2.bonhams.com/image?src=Images/live/2018-09/11/24795781-20-1.jpg&width=640&height=480&autosizefit=1",
- img3Src: "https://assets.phillips.com/image/upload/t_Website_LotDetailMainImage/v1526398149/auctions/UK030218/66_001.jpg",
- img4Src: "https://images2.bonhams.com/image?src=Images/live/2018-03/24/24753034-24-1.jpg&width=640&height=480&autosizefit=1",
-correctAnswer: 0
-
-},
-{
-  question: "Who Became the official painter to Pope Julius II & Leo X?",
-  answers: ["Raphael", "Brunellescchi", "Leonardo Da Vinci"],
-  imgSrc : "https://images.fineartamerica.com/images/artworkimages/mediumlarge/1/head-of-a-young-apostle-raphael.jpg",
-  correctAnswer: 0
-},
-{
     question: "In which city was Rembrant born?",
  answers: ["Munich", "Leiden", "Paris"],
  imgSrc : "https://miro.medium.com/max/2560/1*WvezE2LZCeRTBB83InRU9g.jpeg",
@@ -133,32 +137,23 @@ correctAnswer: 0
  img4Src: "https://news.artnet.com/app/news-upload/2019/04/Rembrandt-Self-portrait-with-Two-Circles-850x1024.jpg",
 correctAnswer: 1
 },
-{
-  question: "Who painted these strawberries?",
-  answers: ["Pierre-Auguste Renoir,", "Marc Chagall", "Lucian Freud"],
-  imgSrc : "https://www.sothebys.com/content/dam/stb/lots/L17/L17007/L17007_9HK2Q_web.jpg",
-  correctAnswer: 2
-},
-{  
-  question: "Between 1874 and 1886, How many Impressionist exhibitions were held?",
-answers: ["8", "1", "200"],
-imgSrc : "https://www.sothebys.com/content/dam/stb/lots/PF1/PF1716/350PF1716_9KZB6_1.jpg",
-img2Src : "",
-img3Src: "",
-img4Src: "",
+{ 
+    question: "What is the correct fair market value of Birth of Venus edition 7/20 ?",
+ answers: ["70,000 USD", "1M USD", "20M USD"],
+ imgSrc : "https://d2mpxrrcad19ou.cloudfront.net/item_images/1088547/11343507_fullsize.jpg",
+ img2Src: "https://i.pinimg.com/600x315/53/b9/06/53b9060f1f676a6d9b9479e739bc7ee9.jpg",
+ img3Src: "https://www.paintingstar.com/static/gallery/2015/11/27/andy-warhol-details-of-renaissance-paintings-sandro-botticelli-birth-of-venus-1482-f-s-iib-317-s201043_thumb.jpg?Details+Of+Renaissance+Paintings+%28sandro+Botticelli%2C+Birth+Of+Venus%2C+1482%29+%28f.+%26+S.+Iib.317%29+Artwork+by+Andy+Warhol",
+ img4Src: "https://d7hftxdivxxvm.cloudfront.net/?resize_to=fit&width=400&height=275&quality=80&src=https%3A%2F%2Fd32dm0rphc51dk.cloudfront.net%2FjXnczlgeGGvh45U_W0jbgg%2Flarge.jpg",
 correctAnswer: 0
-},
-{
-  question: "How many haystack paintings by Monet exist?",
-  answers: ["2", "38", "12"],
-  imgSrc : "https://sothebys-com.brightspotcdn.com/dims4/default/4238589/2147483647/strip/true/crop/2000x1564+0+0/resize/1151x900!/quality/90/?url=http%3A%2F%2Fsothebys-brightspot.s3.amazonaws.com%2Fdotcom%2F43%2Fcf%2F2e1949614262aefa6c378cb70a28%2F089n10067-3y7gy.jpg",
-  correctAnswer: 1
+
 },
 { 
-
-question: "What is the name of this painting by Grant Wood?",
-answers: ["American Dream", "American Gothic", "The Farmer and His Wife"],
-imgSrc : "https://sothebys-com.brightspotcdn.com/dims4/default/acf7ae5/2147483647/strip/true/crop/9083x11100+0+0/resize/684x836!/quality/90/?url=http%3A%2F%2Fsothebys-brightspot.s3.amazonaws.com%2Fdotcom%2F4f%2F27%2F4a79a85c42748988055316a406d9%2Fgrant-wood-american-gothic.jpg",
+    question: "What is the correct fair market value for Winslow Homer's Snap the Whip ?",
+ answers: ["1M USD", "3M USD", "100M USD"],
+ imgSrc : "https://collectionapi.metmuseum.org/api/collection/v1/iiif/11140/34221/main-image",
+ img2Src: "https://upload.wikimedia.org/wikipedia/commons/f/fd/Winslow_Homer_-_Children_on_the_beach_%281873%29.jpg",
+ img3Src: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Winslow_Homer_-_Sounding_Reveille_%281871%29.jpg/1200px-Winslow_Homer_-_Sounding_Reveille_%281871%29.jpg",
+ img4Src: "https://upload.wikimedia.org/wikipedia/commons/e/e8/Winslow_Homer_-_In_Charge_of_Baby.jpg",
 correctAnswer: 1
 
 }
@@ -178,6 +173,8 @@ $("#start-btn").click(function() {
   //timer
   var timerInterval = setInterval(function() {
     timeLeft--;
+    console.log("hello")
+    console.log(timeLeft)
     if (timeLeft <= 0) {
       clearInterval(timerInterval);
       location.reload();
@@ -204,10 +201,6 @@ function renderQuestion(q) {
   $('#description').empty();
   
   questionContainer.append(questionElement);
-
-  if(q.hasOwnProperty("imgSrc")) {
-    $('#qImg').html("<img src="+ q.imgSrc +">");
-  }
 
   if(q.hasOwnProperty("img2Src")) {
     $('#qImg2').html("<img src="+ q.img2Src +">");
@@ -243,6 +236,7 @@ function renderQuestion(q) {
       createButton.onclick = function() {
         quizIndex++;
         $(".newClass").replaceWith(questions[quizIndex]);
+        
 
         
 
@@ -251,7 +245,8 @@ function renderQuestion(q) {
           window.location.href = "highscore.html";
           //saving to local storage
         //   localStorage.setItem("mostRecentScore", timeLeft);
-          localStorage.setItem("mostRecentScore", score);
+          localStorage.setItem("mostRecentScore", timeLeft);
+          console.log(  localStorage.getItem("mostRecentScore"))
           localStorage.setItem("numQuestions", questions.length)
         }
         // renders the next question
@@ -259,7 +254,9 @@ function renderQuestion(q) {
       };
     } else {
       createButton.onclick = function() {
+        console.log("hi")
         timeLeft -= 5;
+        console.log(timeLeft)
         alert("Wrong! You lost 5 seconds");
       };
     }

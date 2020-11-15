@@ -1,3 +1,4 @@
+
 // function saveHighscore() {
 //   var printHighscore = document.createElement("div");
 //   printHighscore.textContent = timeLeft;
@@ -12,13 +13,13 @@
 var initials = document.getElementById("userInitials");
 var submitBtn = document.getElementById("submitBtn");
 
-initials.addEventListener("keyup", () => {
-  submitBtn.disabled = !initials.value;
-});
+// document.addEventListener("keyup", () => {
+//   submitBtn.disabled = !initials.value;
+// });
 
 var finalScore = document.getElementById("finalScore");
 // grabs score from local
-var mostRecentScore = localStorage.getItem("mostRecentScore");
+var score = localStorage.getItem("mostRecentScore");
 // finalScore.textContent = grabsRecentScore;
 let numQuestions = localStorage.getItem("numQuestions")
 
@@ -36,9 +37,9 @@ $("#userInitials").submit(saveHighscore);
 
 
 $(() => {
+console.log("WHAT THE")
+document.addEventListener("DOMContentLoaded",checkEnd)
 
-
-// document.addEventListener("DOMContentLoaded",checkEnd)
 
   checkEnd()
 })
@@ -46,9 +47,9 @@ function checkEnd(){
     // if(questions.length === runningQuestion){
         //win
         // const scorePerCent = Math.round(100 * mostRecentScore/numQuestions);
-        const score = timeLeft;
-console.log(questions.length);
-        
+        // const score = timeLeft;
+// console.log(questions.length);
+console.log(score);
 
         var img = (score >= 240) ? "https://www.sartle.com/media/artwork/laughing-cavalier-frans-hals.jpg" :
         (score >= 200) ? "https://flockler.com/thumbs/sites/889/11_001-e105cd3c-c2c7-499a-aafa-a74df76bde5f_s600x0.jpg" :
@@ -60,7 +61,7 @@ console.log(questions.length);
         console.log(scoreDiv);
 scoreDiv.html( "<img src="+ img +">");
 // scoreDiv.append( "<p>"+ scorePerCent +"%</p>");
-finalScore.textContent = score;
+finalScore.textContent = (score);
 // finalScore.textContent = scorePerCent;
 }
 
